@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/b30d0a19db.css" crossorigin="anonymous"> -->
+    <link rel="preload" as="font" href="https://www.seasonsandsuppers.ca/wp-content/themes/seasonsandsuppers/fonts/Mollieglaston.woff2" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        	.intro { 
+			background: #353642; 
+			border-bottom: 2px solid #f0f5f8; 
+			display: block;
+			min-height: 55px; 
+			width: 100%;
+			padding: 20px 0 15px 0;
+		}
+		.dropdown-menu {
+			display: none;
+		}
+		.dropdown:hover .dropdown-menu {
+			display: block;
+		}
+		.dropdown-menu {
+			position: absolute;
+			background: white;
+			list-style-type: none;
+		}
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <div>
+            <a href="https://www.seasonsandsuppers.ca/" title="Seasons and Suppers" rel="home" >
+                <img src="https://www.seasonsandsuppers.ca/wp-content/themes/seasonsandsuppers/images/logo@2x.png" srcset="https://www.seasonsandsuppers.ca/wp-content/themes/seasonsandsuppers/images/logo.png 1x,https://www.seasonsandsuppers.ca/wp-content/themes/seasonsandsuppers/images/logo@2x.png 2x" alt="Seasons and Suppers Logo" width=600px style="align-self: flex-start; margin: 12px 0 0 20px;">
+            </a>
+        </div>
+      
+        <div class="head-div">
+            <nav>
+                <ul style="display: flex; justify-content: space-between; align-items: center; gap: 30px; font-size: 30px; width: 100%;">
+
+                    <li class="dropdown" style="padding: 25px 15px; text-decoration: none; list-style: none; color: #4a4a4d;">
+                        <a href=""><span style="text-decoration: none; color: #4a4a4d; padding: 25px 15px">HOME </span></a>
+                    </li>
+                    <li class="dropdown" style="padding: 25px 15px; text-decoration: none; list-style: none; color: #4a4a4d;">
+                        <a href="https://www.seasonsandsuppers.ca/creamiest-rice-pudding/#"><span style="text-decoration: none; color: #4a4a4d;">RECIPES</span></a>
+                            <div class="dropdown-menu">
+                                <ul style="width: 300px; list-style-type: none; vertical-align: middle; background-color: #4a4a4d; display: flex; gap: 30px; flex-direction: column; color: #fff;">
+                                    <li style="list-style-type: none;" style="margin: 0; padding-top: 5px; line-height: 1rem; text-align: left">
+                                        <a href="https://www.seasonsandsuppers.ca/2-banana-banana-bread/" style="text-decoration: none"><span style="font-family: ubuntu; color: #fff; font-weight: 400; line-height: 1.3; letter-spacing: 1px; font-size: .87em; padding-top: 5px">30 Minutes Meals</span></a>
+                                    </li>
+                                    <li style="margin: 0; padding-top: 5px; line-height: 1; text-align: left">
+                                        <a href="https://www.seasonsandsuppers.ca/perfect-creamymacaroni-and-cheese/" style="text-decoration: none"><span style="color: #fff;;font-family: ubuntu; font-weight: 400; line-height: 1.3; letter-spacing: 1px; font-size: .87em; padding-top: 5px">Breakfast & Brunch</span></a>
+                                    </li>
+                                    <li style="margin: 0; padding-top: 5px; line-height: 1; text-align: left">
+                                        <a href="https://www.seasonsandsuppers.ca/creamiest-rice-pudding/" aria-current="page" style="text-decoration: none"><span style="color: #fff; font-family: ubuntu; font-weight: 400; line-height: 1.3; letter-spacing: 1px; font-size: .87em">Bread Recipes</span></a>
+                                    </li>
+                                    <li style="margin: 0; padding-top: 5px; line-height: 1; text-align: left">
+                                        <a href="https://www.seasonsandsuppers.ca/glazed-lemon-pound-cake-loaf/" style="text-decoration: none"><span style="color: #fff; font-family: ubuntu; font-weight: 400; line-height: 1.3; letter-spacing: 1px; font-size: .87em">Main Dishes</span></a>
+                                    </li>
+                                    <li style="margin: 0; padding-top: 5px; line-height: 1; text-align: left">
+                                        <a href="https://www.seasonsandsuppers.ca/15-minute-spicy-udon-vegetable-stir-fry/" style="text-decoration: none"><span style="color: #fff; font-family:ubuntu; font-weight: 400; line-height: 1.3; letter-spacing: 1px; font-size: .87em">Side Dishes</span></a>
+                                    </li>
+                                    <li style="margin: 0; padding-top: 5px; line-height: 1; text-align: left">
+                                        <a href="https://www.seasonsandsuppers.ca/seeded-multigrain-sandwich-bread/" style="text-decoration: none"><span style="color: #fff; font-family: ubuntu; font-weight: 400; line-height: 1.3; letter-spacing: 1px; font-size: .87em">Soups</span></a>
+                                    </li>
+                                    <li style="margin: 0 3px 0 0; padding-top: 5px; line-height: 1; text-align: left">
+                                        <a href="https://www.seasonsandsuppers.ca/mango-salad/" style="text-decoration: none"><span style="color: #fff; font-family: ubuntu; font-weight: 400; line-height: 1.3; letter-spacing: 1px; font-size: .87em">Salads</span></a>
+                                    </li>
+                                    <li style="margin: 0; padding-top: 5px; line-height: 1; text-align: left">
+                                        <a href="https://www.seasonsandsuppers.ca/skillet-pork-medallions-mushroom-marsala-sauce/" style="text-decoration: none"><span style="color: #fff; font-family: ubuntu; font-weight: 400; line-height: 1.3; letter-spacing: 1px; font-size: .87em">Sweets</span></a>
+                                    </li>
+                                    <li style="margin: 0; padding-top: 5px; line-height: 1; text-align: left">
+                                        <a href="https://www.seasonsandsuppers.ca/homemade-baked-beans/" style="text-decoration: none"><span style="color: #fff; font-family: ubuntu; font-weight: 400; line-height: 1.3; letter-spacing: 1px; font-size: .87em">Recipe Index</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </li>
+                    <li style="text-decoration: none; list-style: none;"><a href="https://www.seasonsandsuppers.ca/about/">ABOUT</a></li>
+                    <li style="text-decoration: none; list-style: none;"><a href="https://www.seasonsandsuppers.ca/contact/" aria-current="page">CONTACT</a></li>
+                    <li style="text-decoration: none; list-style: none; display: flex; flex-direction: column; gap: 10px; padding-top: 20px;"><a href="https://www.seasonsandsuppers.ca/newsletter-subscribe/">SUBSCRIBE</a>
+                         <img src="./Images/swash.svg" alt="swash">
+                    </li>
+                </ul>
+            </nav>
+
+                <div class="social">
+                    
+                    <a href="/feed/" aria-label="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="40" height="40" fill="#4b4b4e"><path d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"></path></svg>
+                    </a>
+                    
+                    <i class="fa fa-facebook-f" ></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+
+                <div style="padding-right: 100px; padding-left: 100px;">
+                    <i class="fa fa-search"></i>
+                </div>
+        </div>
+
+    </header>
+    <br>
+    <div class="header-divider"></div>
+    <section class="spinach-image">
+        <img style="width: 60%; " src="./Images/warm-spinach-salad-1200-768x768.jpg" alt="Warm Spinach" >
+
+        <section class="salad-recipes" style="width: 50%;">
+            <div style="display: flex; font-size: 16px; justify-content: center; align-items: center; padding-top: 80px;">
+                <p style="font-weight: 700;letter-spacing: .2em;font-size: 20px;text-decoration: underline;">SALAD RECIPES</p>
+                <p style="font-size: 20px;"> &nbsp; | &nbsp;11.9.21</p>
+            </div>
+            <h1 style="text-align: center; font-size: 80px;">Warm Spinach Salad with Apple and Brie</h1>
+            <p style="font-size: 35px;">A lovely warm spinach salad, with maple roasted apples, Brie cheese, toasted nuts and optional crumbled bacon.</p>
+            <div class="recipe-buttons" >
+                <button style="background-color: #4a4a4d; color: #fff; opacity: 0.9; padding: 30px 30px;
+                margin-right: 10px; border-radius: 0px; box-shadow: none; font-size: 25px;">JUMP TO RECIPE</button>
+                <button  style="background-color: #4a4a4d; color: #fff; opacity: 0.9; padding: 30px 30px; border-radius: 0px; box-shadow: none; font-size: 25px;">PIN RECIPE</button>
+            </div>
+            <section class="ratings">
+                <div>
+                    <iconify-icon icon="material-symbols:star-sharp"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star-sharp"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star-sharp"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star-sharp"></iconify-icon>
+                    <iconify-icon icon="material-symbols:star-sharp"></iconify-icon> 
+                </div>
+                <span style="font-style: italic; font-size: 20px; padding-top: -10px;">5 stars from 2 ratings</span>
+            </section>
+    
+            
+        </section>
+    </section>
+    <div class="email-request" style="background-color: #4a4a4d; width: 100%;margin: 0 auto; height: 200px; text-align: center; gap: 20px; position: relative; margin-bottom: 80px;">
+        <img src="./ampersand-white@2x.png" alt="background image" style=" z-index: 1; opacity: 0.3; height: 200px; position: absolute; left: 0; transform: translateX(500px);">
+        <form style="z-index: 2; height: 150px; display: flex; flex-direction: row; justify-content: center; align-items: center;  position: absolute; left: 0; transform: translateX(25%); gap: 30px; text-align: center; padding: 20px;" >
+            <label for="email" name="email" id="email" style="color: #fff; font-size: 40px;">Get the latest recipes delivered to your inbox:</label>
+            <input type="text" id="email" placeholder="Email" style="width:auto;max-width: 600px; padding: 10px 40px; border: none; font-size: 40px; border: none;">
+            <i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"aria-hidden="true" style="color: #f7f7f6;"></i>
+        </form>
+
+    </div>
+
+    <section>
+        <section class="left-grid-column" style="display: grid; grid-template-columns: 2fr 1fr; gap: 80px; padding: 20px 100px;">
+            <section>
+                <p style="text-align: left;"><span class="big-letter-A" style="font-size: 40px;">A</span> delicious warm spinach salad, with maple roasted apples, Brie cheese, nuts and optional bacon, tossed in a warm apple cider and mustard dressing. A perfect Fall salad!</p>
+
+                <img src="./Images/2-warm-spinach-salad-4-3-5.jpg" alt="Warm Spinach" style="width: 100%; padding-top: 40px; padding-bottom: 30px;">
+
+                <div class="jump-to" style="background-color:  #f7f7f6; padding: 20px 20px; text-align: left; border-left: 10px solid #efefe9" >
+                    <h2 style="padding-left: 20px;">Jump to:</h2>
+                    <ul style="display: flex; flex-direction: column; gap: 10px; line-height: 1.7;
+                    color: #4a4a4d;">
+                        <li><a href="#Why you’ll love this warm spinach salad recipe" style="color: #4a4a4d;"> Why you’ll love this warm spinach salad recipe</a></li>
+                        <li><a href="#Key Ingredients" style="color: #4a4a4d;"> Key Ingredients</a></li>
+                        <li><a href="#Is everything better with bacon?" style="color: #4a4a4d;">Is everything better with bacon?</a></li>
+                        <li><a href="#4 easy ways to toast nuts" style="color: #4a4a4d;">4 easy ways to toast nuts</a> </li>
+                        <li><a href="#Step-by-Step Photos" style="color: #4a4a4d;">Step-by-Step Photos</a></li>
+                        <li><a href="#Making ahead and storing" style="color: #4a4a4d;"> Making ahead and storing</a></li>
+                        <li><a href="#Top Tip" style="color: #4a4a4d;">Top Tip</a style="color: #4a4a4d;"></li>
+                        <li><a href="#Get the Recipe: Warm Spinach Salad with Apple and Brie" style="color: #4a4a4d;"> Get the Recipe: Warm Spinach Salad with Apple and Brie</a></li>
+                        <li><a href="#Save or share this recipe" style="color: #4a4a4d;">Save or share this recipe</a></li> 
+                    </ul>
+                </div>  
+                
+                <div>
+                    <div id="Why you’ll love this warm spinach salad recipe">
+                        <h2  style="margin-top: 45px;
+                        padding-bottom: 12px;
+                        border-bottom: 1px solid #efefe9;">Why you’ll love this warm spinach salad recipe</h2>
+
+                        <p>Cooler weather calls for warmer salads and this warm spinach salad fits the bill perfectly. The <strong>maple roasted apples</strong> in this salad make it a <strong>perfect Fall salad, </strong> that would be great as an everyday side dish (try it with grilled chicken or pork chops!), but also special enough for the Thanksgiving table.</p>
+
+                        <p>
+                        This spinach salad is dressed with a s 
+                        <strong> warm apple cider,</strong> <strong>apple cider vinegar and mustard dressing,</strong>   with just a bit of garlic. The apple slices are brushed with maple syrup before being roasted and <strong>toasted pecans</strong> (or walnuts) and chunks of <strong>Brie cheese,</strong> round out this salad.
+                        </p>
+                    </div>
+
+                    <div id="Key Ingredients">
+                        <h2  style="margin-top: 45px;
+                    padding-bottom: 12px;
+                    border-bottom: 1px solid #efefe9;">Key Ingredients</h2>
+                    <p>
+                        <strong>Spinach – </strong> baby spinach works best here. Some people like to remove the stems and you can certainly do that if you like. I rarely bother, myself.
+                    </p>
+
+                    <p><strong>Apples – </strong>Granny Smith apples work well here as they hold their shape well. I tend to prefer a red apple and even though they tend to get a little softer after roasting, I love the colour and flavour. You can go either way, as you</p>
+
+                    <p><strong>Maple Syrup –</strong> real maple syrup will give you the best results here, but in a pinch maple-flavoured pancake syrup will bring the maple flavour to the apples, as well.</p>
+                    <p><strong>Brie Cheese – </strong> a small round of Brie is all you need for this salad. Camembert would be a good substitute. If neither is available, I think I would look to goat cheese crumbles.</p>
+
+                    <p><strong>Nuts – </strong> use either pecans or walnuts, but either way, it’s well worth the time to toast them for extra flavour in the salad.</p>
+
+                    <p><strong>Oil – </strong> you can use any type of salad oil here, from Extra Virgin Olive Oil to a neutral-tasting cooking oil, such as vegetable or canola. If you are opting to add some bacon to your salad and cooking the bacon fresh, you can use a bit of the bacon’s rendered fat (maybe a Tbsp or so) to replace the oil in the dressing, to bring a bacon flavour to the dressing as well).</p>
+
+                    
+                    <p><strong>Apple Cider Vinegar – </strong>apple cider vinegar continues the “apple” them in the dressing, but if you don’t have apple cider vinegar on hand, white or white wine vinegar is good substitute.</p>
+
+                    <p><strong>Apple Cider or Apple Juice –</strong> fresh apple cider will offer the best flavour, but regular apple juice is fine, as well.</p>
+                    
+                    </div>
+                    <div id="Is everything better with bacon?">
+                        <h2 style="margin-top: 45px;
+                        padding-bottom: 12px;
+                        border-bottom: 1px solid #efefe9;">Is everything better with bacon?</h2>
+                        <p>
+                            This salad is delicious with or without bacon, so if you need to keep it vegetarian or you just don’t feel like frying up bacon, rest assured that you will still have a great salad. That said, some crumbled, cooked bacon would be right at home in this warm spinach salad! Or kick it up a notch and go for cooked, diced pancetta.
+                        </p>
+                    </div>
+
+                    <div id="4 easy ways to toast nuts">
+                        <h2 style="margin-top: 45px;
+                        padding-bottom: 12px;
+                        border-bottom: 1px solid #efefe9;">4 easy ways to toast nuts</h2>
+                        <ol class="ol">
+                            <li><strong>Microwave – </strong>simply scatter the nuts onto a microwave-safe plate and cook in the microwave in 30-second bursts, stirring between, until fragrant and toasted. Remove from plate to prevent further cooking.</li>
+                                
+                            <li><strong>Dry Skillet –</strong> scatter nuts into a dry, non-stick skillet and cook over medium heat, stirring, until fragrant and golden.</li>
+
+                            <li><strong>Oven – </strong>e scatter nuts onto a dry baking sheet and place into a preheated 350F oven. Cook, stirring, until fragrant and golden, 4-5 minutes.</li>
+
+                            <li><strong>Air Fryer –</strong> yes, you can toast nuts in an air fryer! Of course, this assumes your air fryer basket doesn’t have holes too big that the nuts might fall through. Otherwise, simply set your air fryer to 300F and air fry for 4-5 minutes, shaking the basket halfway through.</li>
+                        </ol>
+                    </div>
+
+                    <div id="Step-by-Step Photos">
+                        <h2 style="margin-top: 45px;
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #efefe9;">Step-by-Step Photos</h2>
+                        <img src="./Images/11-warm-spinach-salad-steps-1.jpg" alt="Step One" width="100%">
+                    </div>   
+                    
+                    <div id="Making ahead and storing">
+                        <h2 style="margin-top: 45px;
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #efefe9;">Making ahead and storing</h2>
+                        <p>You can make the <strong>toasted nuts</strong> ahead and store in an airtight container. You can also dice the <strong>Brie cheese</strong> ahead and refrigerate separately until assembling the salad.</p>
+                        <p>The <strong>roasted apples</strong>can also be made ahead, if necessary, though they are probably at their best fresh and still a little warm. If making ahead, store at room temperature until you assemble the salad, so at least they aren’t cold.</p>
+
+                        <p>You can mix up the <strong>salad dressing</strong> ahead, then re-warm just before mixing the salad. Refrigerate until needed.</p>
+                        <p><strong>Assemble the salad just before serving,</strong> so that it is warm on the table and the spinach doesn’t get soggy.</p>
+                    </div>
+
+                    <section id="Top Tip">
+                        <section>
+                            <h2 style="margin-top: 45px;
+                            padding-bottom: 20px;
+                            border-bottom: 1px solid #efefe9;">Top Tip</h2>
+    
+                            <p>This salad has tangy apple/mustard dressing, sweet apples and creamy Brie, but to round it all out, it does need a salty element. If you opt for the bacon addition, you’ve got that covered, if not, be sure to salt your salad. I like to salt right after adding the salad dressing.</p>
+    
+                            <img src="./Images/20-warm-spinach-salad-2-3-1.jpg" alt="Top Tip" width="100%" style="padding-bottom: 50px;">
+                        </section>
+    
+                        <section style="position: relative;background-color:#f7f7f6; text-align: center;">
+                            <img style=" border-width: 0px; border-style: solid;border-color: #666666;" width="100%" src="https://www.seasonsandsuppers.ca/wp-content/uploads/2021/11/warm-spinach-salad-1200-720x480.jpg" class="attachment-horiz2x size-horiz2x" alt="warm spinach salad in bowl with roasted apples and brie" decoding="async" srcset="https://www.seasonsandsuppers.ca/wp-content/uploads/2021/11/warm-spinach-salad-1200-720x480.jpg 720w, https://www.seasonsandsuppers.ca/wp-content/uploads/2021/11/warm-spinach-salad-1200-450x300.jpg 450w, https://www.seasonsandsuppers.ca/wp-content/uploads/2021/11/warm-spinach-salad-1200-1200x800.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px">
+    
+                            <p style="position: absolute; top: 31em; left: 42%; color: #4a4a4d;; background-color: #f7f7f6; padding: 12px 18px;" id="Get the Recipe: Warm Spinach Salad with Apple and Brie">GET THE RECIPE:</p>
+                            <div style="display: flex; flex-direction: column; justify-content: center; gap: 0px; align-items: center;">
+                                <h1 style="font-size: 70px;
+                                   font-weight: 400;">Warm Spinach Salad with Apple and Brie
+                                </h1>
+                                <p style="padding-inline: 45px;font-weight: 400;font-size: 37px;">A lovely warm spinach salad, with maple roasted apples, Brie cheese, toasted nuts and optional crumbled bacon.</p>
+    
+                                <section style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                                    <section style="display: flex;">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </section>
+                                    <p style="font-size: 20px;font-style: italic;">5 stars from 2 ratings</p>
+                                </section>
+    
+                                <section class="review" style="width: 94%; padding-inline: 45px;">
+                                    <button style="width: 30%; height: 65px;">PRINT RECIPE</button>
+                                    <button style="width: 30%; height: 65px;">PIN THIS</button>
+                                    <button style="width: 30%; height: 65px;">LEAVE A REVIEW</button>
+                                </section>
+    
+                                <div style="background-color:#efefe9; width: 100%;">
+                                    <section style="display: flex; justify-content: space-around;">
+                                        <section style="display: flex; align-items: center; gap: 10px;">
+                                            <iconify-icon icon="mdi:clock-outline"></iconify-icon>
+                                            <p style="font-family: qualion round,Geneva,Arial,helvetica,sans-serif; font-style: italic;">prep time:</p>
+                                            <p style="color: #4a4a4d; font-size: 100%; text-transform: uppercase; font-weight: bold;">20 mins</p>
+                                        </section>
+        
+                                        <section style="display: flex; align-items: center; gap: 10px;">
+                                            <iconify-icon icon="mdi:clock-outline"></iconify-icon>
+                                            <p style="font-family: qualion round,Geneva,Arial,helvetica,sans-serif; font-style: italic;">cooking time:</p>
+                                            <p style="color: #4a4a4d; font-size: 100%; text-transform: uppercase; font-weight: bold;">10 mins</p>
+                                        </section>
+        
+                                        <section style="display: flex; align-items: center; gap: 10px;">
+                                            <iconify-icon icon="mdi:clock-outline"></iconify-icon>
+                                            <p style="font-family: qualion round,Geneva,Arial,helvetica,sans-serif; font-style: italic;">total time:</p>
+                                            <p style="color: #4a4a4d; font-size: 100%; text-transform: uppercase; font-weight: bold;">30 mins</p>
+                                        </section>
+                                    </section>
+        
+                                    <section>
+                                        <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                                            <img src="./Images/crossed-fork-and-knife-vector-600708.webp" alt="Crossed fork icon" width="30px">
+                                            <span>yield:</span>
+                                            <p style="font-weight: bold;"> 4 SERVINGS</p>
+                                            <div style="width: 30px; border-radius: 50%; background-color:#fff;text-align: center; color: #4a4a4d; padding: 5px 10px;">
+                                                <section>&#189;</section>
+                                            </div>
+                                            <div style="width: 30px; border-radius: 50%; background-color:#4a4a4d;text-align: center; color:#fff; padding: 5px 10px;">
+                                                <section>1x</section>
+                                            </div>
+        
+                                            <div style="width: 30px; border-radius: 50%; background-color:#fff;text-align: center; color: #4a4a4d; padding: 5px 10px;">
+                                                <section>2x</section>
+                                            </div>
+                                            <div style="width: 30px; border-radius: 50%; background-color:#fff;text-align: center; color: #4a4a4d; padding: 5px 10px;">
+                                                <section>3x</section>
+                                            </div>
+                                        </div>
+                                    </section>
+        
+                                </div>
+    
+                            </div>
+                        </section>
+                    </section>  
+
+
+                    <section id="Ingredients" style="border-inline: 1px solid #efefe9; padding-left: 15px;" >
+                        <section style="display: flex; justify-content: space-around; align-items: center; gap: 10px;">
+                            <h2>Ingredients </h2>
+                            <div style="border-bottom: 1px solid #666666; width: 100%; opacity: 0.1; padding-inline: 20px; margin-right: 50px;"></div>
+                        </section>
+                        <ul>
+                            <li>2-3 apples,<span style="opacity: 0.7;"> 2 if large, 3 if smaller *see Note 1 for types to use</span></li>
+                            <li>2 Tablespoon maple syrup</li>
+                            <li>4 cups baby spinach leaves</li>    
+                            <li>3-4 oz Brie cheese,<span style="opacity: 0.7;"> cut into small pieces</span></li>    
+                            <li>1/4 cup walnuts or pecans, toasted *see Note 2</li>    
+                            <li>1/4 cup walnuts or pecans,<span style="opacity: 0.7;"> toasted *see Note 2</span></li>    
+                            <li>Bacon,<span style="opacity: 0.7;"> cooked and crumbled (optional)</span></li>    
+                            <li>Pinch salt and freshly ground pepper</li>
+                        </ul>
+
+                        <h3>Dressing:</h3> 
+                        <ul>
+                            <li>2 Tbsp apple cider or apple juice</li>
+                            <li>1 1/2 Tablespoon apple cider vinegar</li>
+                            <li>1/2 teaspoon Dijon mustard</li>
+                            <li>1/4 teaspoon garlic, <span style="opacity: 0.7;">minced</span></li>
+                            <li>2 Tablespoon oil, <span style="opacity: 0.7;">extra virgin olive, vegetable, canola *see Note 3</span></li>
+                            <li>Salt and freshly ground pepper</li>
+                        </ul>
+                            
+                    </section>
+ 
+                    <section id="Instructions" style="border-inline: 1px solid #efefe9; padding-left: 15px; padding-bottom: 20px; padding-inline: 20px;" >
+                        <section style="display: flex; justify-content: space-around; align-items: center; gap: 10px;">
+                            <h2>Instructions</h2>
+                            <div style="border-bottom: 1px solid #666666; width: 100%; opacity: 0.1; padding-inline: 20px; margin-right: 50px;"></div>
+                        </section>
+                        <ol>
+                            <li style="padding-bottom: 20px;"> &nbsp; Cut the Brie cheese into small pieces and set aside. Toast the walnuts or pecans. (See Note 2 below for how to toast nuts). Set aside.</li>
+                            <li style="padding-bottom: 5px;"> &nbsp; Roast the apples: Prepare the apples. You can peel or not, as you like. Cut the apples into quarters, core, then cut into 1/2-inch slices. Arrange the apple slices in a single layer on a baking sheet. Brush with maple syrup. Place the baking pan onto the top rack of the oven and broil until lightly golden. <br>
+                            Remove from oven, flip the apples, brush with more maple syrup and return to the oven to broil until the other side of the apples are golden. Remove from oven and set aside. *Watch closely as the apples can easily scorch.</li>
+                            <li style="padding-bottom: 20px;"> &nbsp; 4 cups baby spinach leaves</li>    
+                            <li style="padding-bottom: 20px;"> &nbsp; Prepare the dressing: In either a microwave-proof bowl or measuring cup OR a small saucepan on the stovetop, whisk together the dressing ingredients. Heat in the microwave or on the stove-top over low heat until simmering. Remove from heat or set aside.</li>    
+                            <li style="padding-bottom: 20px;"> &nbsp; Prepare the salad: Add the spinach to a large bowl. Re-warm the dressing, as needed, then whisk together well right before drizzling over the spinach, using as much as needed to moisten the spinach. Toss the spinach well. Season with a little salt and pepper and re-toss. Add the roasted apples, Brie cheese, toasted nuts and crumbled bacon (if using). Toss well and serve immediately.</li>    
+                        </ol>
+                    </section>  
+                    
+                    <section id="Notes" style="border-inline: 1px solid #efefe9; padding-left: 15px; padding-bottom: 20px;" >
+                        <section style="display: flex; justify-content: space-around; align-items: center; gap: 10px;">
+                            <h2>Notes</h2>
+                            <div style="border-bottom: 1px solid #666666; width: 100%; opacity: 0.1; padding-inline: 20px; margin-right: 50px;"></div>
+                        </section>
+                        <ol style="text-align: left;">
+                            <li style="padding-bottom: 5px;">Apples - Granny Smith apples are a good option, as they hold their shape well when roasted. That said, I prefer a red apple. I like the colour and extra flavour. Opt for a good baking apple, one you might use for a pie, for best results.</li>
+                            <li style="padding-bottom: 5px;">Toasting Nuts - add nuts to a dry, non-stick skillet and cook on the stove-top over medium heat, stirring regularly, until fragrant and golden. *See above the Recipe Card for alternate options for toasting nuts, such as microwave, oven or air fryer methods.</li>
+                            <li style="padding-bottom: 5px;">If you are using bacon and cooking it fresh, save some of the rendered     fat from the bacon and use it to replace up to 1 Tbsp of the oil in the dressing.
+                            </li>
+                        </ol>
+                        <p style="list-style-type: none; padding-left: 15px;">Be sure to read the information above this Recipe Card, for more tips, substitutions and variations for this recipe.</p>
+
+                        <div>Another set of icons </div>
+
+                        <div class="nutritional-value" style="background-color: #f7f7f6;color: #757578;padding: 30px;font-size: 32px;margin-top: 25px; margin-right: 20px;"><span style="font-size: 20px; font-weight: bold; text-align: left;">NUTRITIONAL INFORMATION:</span> <span>calories:</span> <strong>240kcal,</strong> <span>carbohydrates:</span> <strong>16g,</strong> <span>protein:</span> <strong>7g,</strong> <span>fat:</span> <strong>18g,</strong> <span>saturated fat:</span> <strong>5g,</strong> <span>polyunsaturated fat:</span> <strong>6g,</strong> <span>monounsaturated fat:</span> <strong>7g,</strong> <span>trans fat:</span> <strong>1g,</strong> <span>cholesterol:</span> <strong>21mg,</strong> <span>sodium:</span> </strong>166mg,</strong> <span>potassium:</span> <strong>343mg,</strong> <span>fiber:</span> <strong>3g,</strong> <span>sugar:</span> <strong>11g,</strong> <span>vitamin a:</span> </trong>2990iu,</strong> <span>vitamin c:</span> <strong>13mg,</strong> <span>calcium:</span> <strong>83mg,</strong> <span>iron:</span> <strong>1mg</strong></div>
+                    </section>  
+                    
+                    <section>
+                        <div style="background-color: #4a4a4d; width: 100%; position: relative; color: #fff; display: flex; align-items: flex-start;">
+                            <img src="./ampersand-white@2x.png" alt="Logo" style="opacity: .4; transform: translate(150%);">
+                            <section style="display: flex; align-items: center; font-size: 30px;">
+                                <i class="fa fa-instagram fa-5x" aria-hidden="true" style="padding-right: 30px;"></i>
+                                <section>
+                                    <p><span style="font-size: 60px;">Tried this recipe?</span> <br> <span></span>Mention @seasonsandsuppers on Instagram or tag #seasonsandsuppers.</p>
+                                </section>
+                            </section>    
+                        </div>
+                    </section>
+
+                    <section>
+                        <p>Recipe adapted from a Best of Bridge recipe</p>
+                    </section>
+                    <h2 style="font-size: 60px;" id="Save or share this recipe">Save or share this recipe</h2>
+
+                    <section style="display: flex; flex-direction: column; align-items: center;justify-content: center; gap: 20px; background-color: #f7f7f6; border-bottom: 1px solid #efefe9; padding: 40px 20px; width: 100%; border-top: 1px solid #efefe9; ">
+                        <div style="display: flex; gap: 20px;" class="recipe-types">
+                            <button style="padding: 10px 20px 10px 20px; font-size: 20px;">APPLE RECIPES</button>
+                            <button style="padding: 10px 20px 10px 20px; font-size: 20px;">SALAD RECIPES</button>
+                            <button style="padding: 10px 20px 10px 20px; font-size: 20px;">THANKSGIVING RECIPES</button>
+                        </div>
+
+                        <section style="font-size: 20px;">
+                            <small>published on</small> NOV 9, 2021
+                        </section>
+
+                        <div style="display: flex; gap: 20px;" class="div-hover">
+                            <a href="#comments" style="color: #757578; text-decoration: none;">4 COMMENTS</a>
+                            <a href="#leave-a-comment" style="color: #757578; font-size: 30px; text-decoration: none;">LEAVE A COMMENT</a>
+                        </div>
+
+                    </section>
+
+                    <section style="display: flex; justify-content: space-between;  border-bottom: 1px solid #efefe9; padding: 40px 20px; width: 100%; border-top: 1px solid #efefe9;">
+                        <div style="display: flex; flex-direction: column; justify-content: left;" >
+                            
+                            <h3 style="font-size: 30px;"><p style="font-size: 20px;"><i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>PREVIOUS POST</p>Cranberry Oatmeal Yeast Bread</h3>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; justify-content: left;" >
+                           
+                            <h3 style="font-size: 30px;"> <p style="font-size: 20px;">NEXT POST &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></p>Quick and Easy Udon Noodle Soup</h3>
+                        </div>
+                    </section>
+
+                    <h2 style="font-size: 50px; width: 80%;">4 comments on “Warm Spinach Salad with Apple and Brie”</h2>
+
+                    <button class="comment-button" style="padding: 23px 28px 21px 28px;">LEAVE A COMMENT &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button> 
+
+                </div>
+
+                <section class="first-comment" style="border: 1px solid #efefe9; padding: 30px; margin-top: 40px; margin-bottom: 40px;">
+                    <section style="display: flex; justify-content: left; gap: 50px;">
+                        <p style="font-size: 30px;"><span> CHEYANNE @ NO SPOON NECESSARY — </span><span style="font-size: 25px;">NOVEMBER</span><span style="font-size: 20px;"> &nbsp; 9, 2021 @ 7:38 PM</span> <button style=" color: #fff;background-color: #4a4a4d;">REPLY</button></p>
+                    </section>
+                    <p>I’m a salad year ‘round kinda girl, so I absolutely love a delicious warm salad during the cooler months. I’m definitely adding this beauty to my line up!! Love the combination of flavors and textures!!</p>
+    
+                    <section style="background-color: #f7f7f6; padding: 20px; margin-inline: 20px;">
+                        <p style="font-size: 30px;"><span> JENNIFER — </span><span style="font-size: 25px;">NOVEMBER</span><span style="font-size: 20px;"> &nbsp; 9, 2021 @ 7:54 PM</span> <button style=" color: #fff;background-color: #4a4a4d;">REPLY</button></p>
+                        <p>Thanks so much, Cheyanne!</p>
+                    </section>
+                </section>
+
+                <section class="first-comment" style="border: 1px solid #efefe9; padding: 30px; margin-top: 40px; margin-bottom: 40px;">
+                    <section style="display: flex; justify-content: left; gap: 50px;">
+                        <p style="font-size: 30px;"><span> DAWN — </span><span style="font-size: 25px;">NOVEMBER</span><span style="font-size: 20px;"> &nbsp; 9, 2021 @ 9:24 AM</span> <button style=" color: #fff;background-color: #4a4a4d;">REPLY</button></p>
+                    </section>
+                    <p>I always, always, have spinach on hand. And brie? Love it so much!! Gotta give this salad a go. Looks just perfect for fall!</p>
+    
+                    <section style="background-color: #f7f7f6; padding: 20px; margin-inline: 20px;">
+                        <p style="font-size: 30px;"><span> JENNIFER — </span><span style="font-size: 25px;">NOVEMBER</span><span style="font-size: 20px;"> &nbsp; 9, 2021 2021 @ 9:50 AM</span> <button style=" color: #fff;background-color: #4a4a4d;">REPLY</button></p>
+                        <p>TThanks Dawn and yes, I always think of this salad for Fall meals :)</p>
+                    </section>
+                </section>
+
+                <section style="background-color: #f7f7f6; padding: 30px;">
+                    <p>Leave a Reply</p>
+                    <p>Your email address will not be published. Required fields are marked *</p>
+                    <h3 style="text-align: center;">Made this recipe? Click on the stars to leave a rating!</h3>
+                    <section style="text-align: center;" class="that-will-change-on-hover">
+                        <div><div id="wprm-recipe-user-rating-0" class="wprm-recipe-rating wprm-user-rating wprm-recipe-rating-separate"><span class="wprm-rating-star wprm-rating-star-1 wprm-rating-star-full" data-rating="1" data-color="#4a4a4d"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#4a4a4d" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"></polygon></g></svg></span><span class="wprm-rating-star wprm-rating-star-2 wprm-rating-star-full" data-rating="2" data-color="#4a4a4d"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#4a4a4d" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"></polygon></g></svg></span><span class="wprm-rating-star wprm-rating-star-3 wprm-rating-star-full" data-rating="3" data-color="#4a4a4d"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#4a4a4d" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"></polygon></g></svg></span><span class="wprm-rating-star wprm-rating-star-4 wprm-rating-star-full" data-rating="4" data-color="#4a4a4d"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#4a4a4d" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"></polygon></g></svg></span><span class="wprm-rating-star wprm-rating-star-5 wprm-rating-star-full" data-rating="5" data-color="#4a4a4d"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#4a4a4d" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"></polygon></g></svg></span><div class="wprm-recipe-rating-details wprm-block-text-normal"></div></div></div>
+                        
+                        <section style="display: none;" class="to-show-on-hover">
+                            <section style="display: flex;">
+                                <i class="fa fa-star btn1" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </section>
+                        </section>
+                    </section>
+
+                    <form action="get">
+                        <div style="padding-bottom: 50px;">
+                            <p style="font-size: 30px;">Comment *</p>
+                            <textarea name="comment" id="comment" cols="180" rows="20" style="padding: 20px; border: none;"></textarea>
+                        </div>
+
+                        <p style="font-size: 30px;">Name*</p>
+                        <div style="width: 100%; display: flex; justify-content: stretch;">
+                            <input type="text"style="display: block; width: 100%;height: 60px; font: 2em sans-serif; border: none;">
+                        </div>
+
+                        <p style="font-size: 30px;">Email*</p>
+                        <div style="width: 100%; display: flex; justify-content: stretch;">
+                            <input type="text"style="display: block; width: 100%;height: 60px; font: 2em sans-serif; border: none; margin-bottom: 30px;">
+                        </div>
+
+                        <button class="post-comment" style="font-size: 30px; padding: 40px;">POST COMMENT</button>
+                    </form>
+
+                    <br>
+ 
+                </section>
+
+                   
+
+            </section>    
+
+            <section class="right-side grid">
+               <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-align: center; gap: 30px;">
+                    <h2>Hi, I’m Jennifer!</h2>
+                    <p style="margin: 25px 0; text-align:calc(60); font-size: 30px;">Are you are looking for simple, seasonal and delicious everyday recipes? Do you love classic, homey, comforting food, but with a modern, real food update? Good! Me, too!</p>
+                    <button class="more-about-me" style="padding: 20px;">MORE ABOUT ME &gt;&gt;</button>
+                    <div style="display: flex; justify-content: center; gap: 20px;">
+                    <i class="fa fa-facebook-f fa-1x" ></i>
+                    <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p fa-1x" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-1x" aria-hidden="true"></i></div>
+
+               </div>
+                <h3 style="text-align: center; font-size: 38px;">Trending Topics</h3>
+                <div class="next-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <section>
+                        <img src="./Images/lemon-loaf-1200-345x460.jpg" alt="Glazed Lemon" style="width: 100%;">
+                        <p class="class-on-hover">Glazed Lemon Pound Cake Loaf</p>
+                    </section>
+                    <section>
+                        <img src="./Images/cinnamon-swirl-loaf-1200-345x460.jpg" alt="Cinnamon-Loaf" style="width: 100%;">
+                        <p>Cinnamon Swirl Pound Cake Loaf</p>
+                    </section>
+                    <section>
+                        <img src="./Images/2-banana-bread-1200-345x460.jpg" alt="Cinnamon-Loaf" style="width: 100%;">
+                        <p>Simply Perfect 2-Banana Banana bread</p>
+                    </section>
+                    <section>
+                        <img src="./Images/pork-marsala-1200-345x460.jpg" alt="Cinnamon-Loaf" style="width:100%">
+                        <p>Pork Tenderloin Medallions with Mushroom Marsala Sauce</p>
+                    </section>
+                    <section>
+                        <img src="./Images/spicy-udon-1200-5-345x460.jpg" alt="Cinnamon-Loaf" style="width: 100%;">
+                        <p>15 Minute Spicy Udon Stir Fry</p>
+                    </section>
+                    <section>
+                        <img src="./Images/braised-short-rib-1200-345x460 (1).jpg" alt="Cinnamon-Loaf;">
+                        <p>Red Wine Braised Boneless Short Ribs</p>
+                    </section>
+                    <section>
+                        <img src="./Images/pork-wine-herb-4-3-40B-345x460.jpg" alt="Cinnamon-Loaf;">
+                        <p>Pork Loin with Wine and Herb Gravy</p>
+                    </section>
+                    <section>
+                        <img src="./Images/pork-wine-herb-4-3-40B-345x460.jpg" alt="Cinnamon-Loaf;">
+                        <p>Homemade Baked Beans from dried beans</p>
+                    </section>
+                </div>
+
+                <h2 style="color: #757578; text-align: center; font-size: 40px;">Search Recipes:</h2>
+                <div style="position: relative;">
+                    <input type="text" placeholder="search..." style="font-style:italic; font-size: 1em; width: 100%; padding: 20px;">
+                    <i class="fa fa-search fa-2x" style="position: absolute; top: 5px; right: 0.3em;"></i> 
+                </div>
+
+                <h2 style="font-size: 50px; text-align: center; padding: 20px;">Winter Recipe Collections</h2>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 60px;">
+                    <section style="position: relative;" class="citrus">
+                        <img src="./Images/21-asian-orange-salmon-1200-300x300.jpg" alt="" width="100%">
+                        <span class="citus";>CITRUS RECIPES</span>
+                    </section>
+                    <section style="position: relative;" class="baked">
+                        <img src="./Images/22-peppy-beans-1200-300x300.jpg" width="100%">
+                        <span class="baked-beans" >BAKED BEANS RECIPES</span>
+                    </section>
+                    <section style="position: relative;" class="winter">
+                        <img src="./Images/23-italian-goulash-1200-300x300.jpg" width="100%">
+                        <span class="winter-fav">WINTER FAVORITES</span>
+                    </section>
+
+                    <section style="position: relative;" class="slow">
+                        <img src="./images/24-beef-ragu-1200-21-300x300.jpg" width="100%">
+                        <span class="slow-cooking">LOW AND SLOW COOKING</span>
+                    </section>
+                    <section style="position: relative;" class="lemon">
+                        <img src="./images/25-cranberry-lemon-loaf-1200-300x300.jpg" width="100%">
+                        <span class="lemon-baking">LEMON BAKING RECIPES</span>
+                    </section>
+                    <section style="position: relative;" class="cast">
+                        <img src="./Images/26-skillet-pizza-1200-300x300.jpg" width="100%">
+                        <span class="cast-iron">CAST IRON COOKING</span>
+                    </section>
+                </div>
+
+                <section style="padding: 0 20px 20px; border: none;             display:flex; flex-direction: column; flex-flow: row wrap;align-items: center;align-content: center;justify-content: center; background-color: #f7f7f6;">
+                    <form action="get">
+                        <h2 style="font-size: 50px; white-space:break-spaces;">Get the latest recipes delivered to your inbox:</h2>
+
+                        <div style="padding: 20px; margin: 50px;">
+                            <input type="email" name="email" id="email" placeholder="Email" style="font-style: italic; width: 100%; font-size: 1em; border: none; padding: 20px;">
+                        </div>
+
+                        <div style="display: flex; margin: 30px; justify-content: center; align-items: center; padding-top: 70px;"> 
+                            <button style="width: 100%; padding: 30px 20px 20px 20px; font-size: 1em; background-color: #666666; color: #fff;">SUBSCRIBE  &nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                           
+                        </div>
+                    </form>
+                </section>
+              
+            </section>
+
+
+           
+
+        </section>
+
+    </section>
+
+    <section>
+        <div style="background-color: #efefe9; width: 100%; position: relative; color: #757578; display: flex; align-items: flex-start;">
+            <img src="./ampersand-white@2x.png" alt="Logo" style="opacity: 0.5; transform: translate(150%);">
+            <section style="display: flex; align-items: center; font-size: 30px;">
+                <section style="display: flex; align-items: center; justify-content:first baseline; gap: 20px; padding: 30px;">
+                    <h2 style="font-size: 50px;">Get the latest recipes delivered to your inbox:</h2>
+                    <div>
+                        <form action="get" style="display: flex; align-items: center; gap: 20px;">
+                            <input type="text" placeholder="Email" style="padding: 45px; border: none; font-style: italic; font-size: 20px; width: 550px;"> 
+                            <i class="fa fa-long-arrow-right fa-2x"></i>
+                        </form>
+                    </div>
+                </section>
+            </section>    
+        </div>
+    </section>
+
+    <footer style="display: flex; justify-content: space-around; text-transform: uppercase; align-items: center; font-size: 25px;">
+        <section>
+            <ul style="display: flex; gap: 20px; flex-direction: column; list-style-type: none; color: #757578; text-decoration: none;">
+                <li><a href="https://www.seasonsandsuppers.ca/">Home</a></li>
+                <li><a href="https://www.seasonsandsuppers.ca/about/">About</a></li>
+                <li><a href="https://www.seasonsandsuppers.ca/contact/" style="color: #757578;">Contact Me</a></li>
+                <li><a href="https://www.seasonsandsuppers.ca/features/" style="color: #757578;">Press</a></li>
+            </ul>
+        </section>
+        <section>
+            <ul style="display: flex; gap: 20px; flex-direction: column; list-style-type: none; color: #757578;">
+                <li><a href="https://www.seasonsandsuppers.ca/recipe-index-category/">Recipe Index</a></li>
+                <li><a href="https://www.seasonsandsuppers.ca/web-stories/">Web Stories</a></li>
+                <li><a href="https://www.seasonsandsuppers.ca/subscribe/">Subscribe</a></li>
+                <li><a target="_blank" rel="noopener" href="https://www.amazon.com/shop/seasonsandsuppers">Shop</a></li>
+            </ul>
+        </section>
+
+        <section style="text-transform: capitalize;">
+            <a href="https://www.seasonsandsuppers.ca/" ><img style="padding-top: 100px;"src="./Images/logo-badge@2x.png" alt="Logo-batch"></a>
+            <p style="color: #757578;"><strong style="text-transform: uppercase;">©2023 Seasons &amp; Suppers</strong>
+                <br>All Rights Reserved.
+                <br><a href="https://staging.seasonsandsuppers.ca/privacy-policy/" style="color: #757578;">Privacy Policy &amp; Terms of Use</a>
+                <br><span style="font-style: italic;font-size: 20px;">Design by Purr.</span>
+            </p>
+        </section>
+
+        <section>
+            <ul style="display: flex; gap: 20px; flex-direction: column; list-style-type: none; color: #757578;">
+                <li><a href="https://www.seasonsandsuppers.ca/desserts/">Sweet Recipes</a></li>
+                <li style="color: #757578;"><a href="https://www.seasonsandsuppers.ca/breads/">Bread Recipes</a></li>
+                <li><a href="https://www.seasonsandsuppers.ca/main-courses/">Main Dishes</a></li>
+                <li><a href="https://www.seasonsandsuppers.ca/30-minute-meals/">30 Minute Meals</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <ul style="display: flex; gap: 20px; flex-direction: column; list-style-type: none; color: #757578;">
+                <li><a target="_blank" rel="noopener" href="https://www.instagram.com/seasonsandsuppers/">Instagram</a></li>
+                <li><a target="_blank" rel="noopener" href="https://www.facebook.com/SeasonsandSuppers">Facebook</a></li>
+                <li><a target="_blank" rel="noopener" href="https://www.pinterest.ca/SeasonsSuppers/_created/">Pinterest</a></li>
+                <li><a target="_blank" rel="noopener" href="https://twitter.com/seasonssuppers">Twitter</a></li>
+            </ul>
+        </section>
+
+        
+    </footer>
+
+    <div class="cafemedia">
+        <div></div>
+        <p>AN ELITE CAFEMEDIA FOOD PUBLISHER</p>
+    </div>
+
+
+</body>
+</html>

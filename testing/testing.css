@@ -1,0 +1,176 @@
+/* 
+body {
+    padding-left: 35px;
+    padding-right: 135px;
+
+} */
+.header {
+    /* width: 1462.5px; */
+    width: 100%;
+    background-color: hsl(224, 96%, 55%);
+    position: relative;
+    /* height: 100vh;
+    margin-bottom: 20%; */
+}
+
+.next-header {
+    /* padding-top: 28px; */
+}
+
+.head-bar {
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 48px;
+    padding-inline: 135px; */
+    /* padding-inline: 135px; */
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.home {
+    /* width: 51px;
+    height: 22px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FAFAFA;
+    /* margin-left: 135px;
+    padding-top: 48px; */
+}
+
+.about {
+    /* padding-top: 48px;
+    padding-left: 35px; */
+    /* width: 52px;
+    height: 22px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
+.testimonials {
+    /* padding-top: 48px;
+    padding-left: 35px;
+    width: 106px;
+    height: 22px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
+.contact {
+    /* padding-top: 48px;
+    padding-left: 35px;
+    padding-right: 111px;
+    width: 68px;
+    height: 22px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FAFAFA;
+}
+
+
+.smarthome-logo {
+    /* padding-top: 39px;
+    padding-left: 111px;
+    width: 185px;
+    height: 39px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FAFAFA;
+}
+
+.login {
+    /* padding-left: 260px;
+    width: 45px;
+    height: 21px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+
+
+button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #011037;
+    /* width: 152px;
+    height: 58px;
+    margin-right: 135px; */
+    /* margin-left: 35px; */
+}
+
+.curved-ellipse {
+    width: 174px;
+}
+
+.application {
+    /* width: 521px;
+    height: 170px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 85px;
+    margin-inline: auto;
+    color: #FAFAFA;
+    /* transform: translateX(30%); */
+    /* margin-top: 148px; */
+}
+
+.ellipse {
+    width: 23px;
+    height: 23px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: float;
+    float: right;
+    /* margin-right: 198px;
+    margin-top: 113px; */
+}
+
+.wisdom {
+    /* width: 756px;
+    height: 44px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* transform: translateX(20%); */
+    color: #FAFAFA;
+    /* margin-inline: auto; */
+    /* margin-top: 30px;
+    text-align: center;
+    padding-inline: 342px; */
+    text-align: center;
+}
+
+
+.Google, .Apple { 
+    width: 300px;
+ }
+
+.ellipse-4 {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    /* top: 20%;
+    right: 21.5%; */
+}

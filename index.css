@@ -1,0 +1,345 @@
+/* body{
+    background-color: black;
+} */
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 180px;
+}
+
+body {
+    font-family: qualion round,Geneva,Arial,helvetica,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #4a4a4d;
+    margin: 0;
+    
+    
+}
+
+:root {
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    background-color: #fff;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    box-shadow: 0px 6px 6px -4px #ccc;
+    position: fixed;
+    top: 0;
+    padding-inline: 40px;
+    z-index: 1001;
+    font-size: 13px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a4a4d;
+}
+
+.recipes:hover .show {
+    display: block;
+    
+}
+
+.list-to-show-on-hover {
+    display: none;
+}
+
+.recipe-list:hover .list-to-show-on-hover {
+    display: block;
+}
+
+.list-to-show-on-hover {
+    position: absolute;
+	background: white;
+	list-style-type: none;
+    color: #fff;
+}
+
+.head-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    font-size: 40px;
+}
+
+.head-div .social {
+    margin-left: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0;
+    gap: 50px;
+}
+
+.home-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header-divider {
+    display: block;
+    position: fixed;
+}
+
+.ol {
+    max-width: 100%;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 40px;
+  }
+  .ol li {
+    margin: 0 0 0.8rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+    width: 100%;
+  }
+  .ol li::before {
+    content: counter(my-awesome-counter);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 2em;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    transform: rotate(0deg);
+    background: #4a4a4d;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 0 #999;
+  }
+  
+.spinach-image {
+    display: flex;
+    justify-self: flex-start;
+    margin-top: auto;
+}
+.salad-recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    height: 100%;
+    background-color: #f7f7f6;
+    align-content: center;
+    padding: 7%;
+    white-space: normal;
+    width: 720px;
+
+}
+
+.recipe-buttons button:hover {
+    opacity: 0.2;
+    cursor: pointer;
+
+}
+
+.ratings {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.jump-to h2 ul li {
+    color: #4a4a4d;
+}
+.next-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.review {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 10px;
+    padding-bottom: 50px;
+}
+
+.review button {
+    width: 32%;
+    letter-spacing: .2em;
+    font-weight: 700;
+    border: none;
+    background-color: #4a4a4d;
+    font-size: 12px;
+    height: 42px;
+    padding: 12px 14px 8px 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.recipe-types button {
+    color: #fff;
+    background-color: #4a4a4d;
+    text-decoration: none!important;
+    padding: 8px 10px 6px 11px;
+    margin: 3px 1px;
+}
+
+.comment-button {
+    color: #fff;
+    background-color: #4a4a4d;
+    text-decoration: none!important;
+    padding: 8px 20px 6px 20px;
+    margin: 3px 1px;
+    font-size: 20px;
+}
+
+.that-will-change-on-hover:hover {
+    cursor: pointer;
+    /* display: none; */
+
+}
+
+.to-show-on-hover:hover {
+display: block;
+}
+
+.post-comment {
+    color: #fff;
+    background-color: #4a4a4d;
+    text-decoration: none!important;
+    padding: 8px 20px 6px 20px;
+    margin: 3px 1px;
+    font-size: 20px;
+
+}
+
+footer {
+    text-align: center;
+    margin: 50px 0;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #757578;
+}
+
+.more-about-me {
+    color: #fff;
+    background-color: #4a4a4d;
+    text-decoration: none!important;
+    padding: 8px 20px 6px 20px;
+    margin: 3px 1px;
+    font-size: 20px;
+}
+section img:hover {
+    opacity: 0.85;
+}
+
+section p:hover{
+    word-wrap: break-word;
+}
+
+.div-hover a:hover {
+    text-decoration: underline;
+}
+
+.citrus span:hover {
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.citus {
+    position: absolute;
+    top: 40%; 
+    right: 30px; 
+    background-color: #fff;
+    color: 4a4a4d;  
+    padding: 10px; 
+    word-wrap: break-word;
+}
+
+.baked span:hover {
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.baked-beans {
+    position: absolute; top: 30%; right: 60px; width: 50%;background-color: #fff;color: 4a4a4d; word-wrap: break-word; padding: 10px; text-align: center;
+}
+
+.winter-fav {
+    position: absolute; top: 30%; right: 60px; width: 50%;background-color: #fff;color: 4a4a4d; word-wrap: break-word; padding: 10px; text-align: center;
+}
+
+.winter span:hover {
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.slow-cooking {
+    position: absolute; top: 30%; right: 60px; width: 50%;background-color: #fff;color: 4a4a4d; word-wrap: break-word; padding: 10px; text-align: center;
+}
+
+.slow span:hover {
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.lemon-baking {
+    position: absolute; top: 30%; right: 60px; width: 50%;background-color: #fff;color: 4a4a4d; word-wrap: break-word; padding: 10px; text-align: center;
+}
+
+.lemon span:hover {
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.cast-iron {
+    position: absolute; top: 30%; right: 60px; width: 50%;background-color: #fff;color: 4a4a4d; word-wrap: break-word; padding: 10px; text-align: center;
+}
+
+.cast span:hover {
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.cafemedia {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 100px;
+}
+
+.cafemedia div {
+    border-top: 1px solid #ccc;
+    padding-inline: 300px;
+}

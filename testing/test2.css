@@ -1,0 +1,127 @@
+body {
+    font: Inter;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    background-color: #1E5AFA;
+    padding-top: 2em;
+    padding-inline: 4em;
+    height: 100%;
+    background-image: url(Ellipse\ 753.png);
+    background-repeat: no-repeat;
+    background-size: 174px;
+    background-position: top right;
+}
+
+.ellipse-4 {
+    width: 23px;
+    position: absolute;
+    right: 9%;
+    top: 13%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 3em;
+}
+nav ul li {
+    display: inline-block;
+}
+.smarthome-logo {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 0;
+    padding-right: 13%;
+}
+
+.login-button {
+    display: flex;
+    gap: 2em;
+}
+
+.sign {
+    display: flex;
+    
+}
+
+button {
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(56, 56, 56, 0.1), 0px 64.8148px 46.8519px rgba(56, 56, 56, 0.0759259), 0px 38.5185px 25.4815px rgba(56, 56, 56, 0.0607407), 0px 20px 13px rgba(56, 56, 56, 0.05), 0px 8.14815px 6.51852px rgba(56, 56, 56, 0.0392593), 0px 1.85185px 3.14815px rgba(56, 56, 56, 0.0240741);
+    border-radius: 5px;
+    width: 152px;
+    height: 58px;
+}
+.ellipse {
+    width: 174px;
+}
+
+h1 {
+    width: 521px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 85px;
+    margin: auto;
+}
+
+.wisdom {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    width: 756px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.scroll-down {
+    display: float;
+    float: right;
+    width: 249.5px;
+    margin-top: 38px;
+}
+
+.lower-portion {
+    width: 200px;
+    float: right;
+    margin-top: 38px;
+}
+
+.container::after {
+    background-image: url(scroll.png);
+    background-repeat: no-repeat;
+    background-size: 249.5px;
+    position: relative;
+    top: 0;
+}
+
+.apple {
+    width: 202.04px;
+    display: flex;
+}
+
+.google {
+    width: 202px;
+    display: flex;
+    margin-right: -2em;
+    margin-left: -59px;
+}
+
+.apple-google-logo {
+    display: flex;
+    margin-top: 20%;
+    justify-content: center;
+}
+
+.spiral {
+    width: 705.5px;
+    border-radius: 150px;
+}
